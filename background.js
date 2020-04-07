@@ -4,8 +4,9 @@
 
 'use strict';
 
-chrome.runtime.onInstalled.addListener(function() {
-  // chrome.runtime.onStartup.addListener(function() {
+// chrome.runtime.onInstalled.addListener(function() {
+chrome.runtime.onStartup.addListener(function() {
+  console.log("Started the alarm");
   chrome.alarms.create("break_interval", {
     delayInMinutes: 30,
     periodInMinutes: 30
