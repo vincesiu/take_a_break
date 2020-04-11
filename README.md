@@ -16,7 +16,6 @@ For more questions: https://developer.chrome.com/extensions/getstarted
 
 ## TODO
 
-* Show remaining time
 * Pause timer
 * Options page
 * Require user input to restart time

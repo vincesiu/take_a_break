@@ -1,6 +1,6 @@
 {
   "name": "Take a Break!!!",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Every thirty minutes, creates a notification to get up and take a break",
   "permissions": ["alarms", "notifications"],
   "background": {
@@ -24,7 +24,6 @@
   },
   "manifest_version": 2,
   "web_accessible_resources": [
-    "images/take_a_break.png",
-        "images/take_a_break.png"
+    "images/take_a_break.png"
   ]
 }
